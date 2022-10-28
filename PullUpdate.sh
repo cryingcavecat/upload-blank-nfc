@@ -27,5 +27,7 @@ chmod +x UploadBlankNFC.sh
 echo "/////////////////////////////////////////////////"
 echo "PLEASE PRESS THE ARD_RST BUTTON NOW FOR 2 SECONDS AND RELEASE ..."
 echo "/////////////////////////////////////////////////"
+sleep 2
+
 
 bash UploadBlankNFC.sh
