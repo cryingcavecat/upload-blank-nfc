@@ -4,11 +4,12 @@
 #Lists and chooses highest port, most likely to be Leonardo
 config="/home/eden/Paths.json"
 
+TEST_SUITE_LOC="$( jq -r '.TestSuiteLoc' "$config" )"
 ARDUINO_HEX="Blink.ino.hex"
 
 RESET_SCRIPT="$( jq -r '.ResetLeonardoScript' "$config" )"
 
-HEX_PATH="/home/eden/NFC/PandaArduinoNFCHex/"$ARDUINO_HEX"
+HEX_PATH="/home/eden/upload-blank-nfc/PandaArduinoNFCHex"/"$ARDUINO_HEX"
 
 summary_file="$( jq -r '.SetupSummaryFile' "$config" )"
 
@@ -96,10 +97,5 @@ upload_to_leonardo(){
 print_succeed_or_fail
 }
 
-reset_port
 list_paths
 find_leonardo_port
-
-
-
-
