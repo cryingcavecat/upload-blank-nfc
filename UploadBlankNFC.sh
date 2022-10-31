@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "/////////////////////////////////////////////////"
+echo "PLEASE PRESS THE ARD_RST BUTTON NOW FOR 2 SECONDS AND RELEASE ..."
+echo "/////////////////////////////////////////////////"
+sleep 2
+
 
 #Lists and chooses highest port, most likely to be Leonardo
 config="/home/eden/Paths.json"
