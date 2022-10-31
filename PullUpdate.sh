@@ -20,6 +20,6 @@ cd $repo_name
 
 
 echo "/////////////////////////////////////////////////"
-echo "RUNNING UPLOAD BLANK SCRIPT ..."
+echo "SCRIPTS DOWNLOADED - PLEASE SEE GUIDE FOR NEXT STEPS ..."
 echo "/////////////////////////////////////////////////"
 chmod +x UploadBlankNFC.sh
